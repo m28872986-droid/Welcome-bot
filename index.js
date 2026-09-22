@@ -6,11 +6,7 @@ const {
   AttachmentBuilder
 } = require("discord.js");
 
-const {
-  createCanvas,
-  loadImage
-} = require("@napi-rs/canvas");
-
+const { createCanvas, loadImage } = require("@napi-rs/canvas");
 const path = require("path");
 
 const client = new Client({
@@ -26,21 +22,39 @@ client.once("ready", () => {
 
 client.on("guildMemberAdd", async (member) => {
   try {
+    // قناة الترحيب
     const channel = await member.guild.channels.fetch(
-      process.env.WELCOME_CHANNEL_ID
+      "1548158650823221318"
     );
 
-    if (!channel) return;
+    if (!channel) {
+      console.log("❌ ما لقيت قناة الترحيب");
+      return;
+    }
 
-    const canvas = createCanvas(1875, 800);
-    const ctx = canvas.getContext("2d");
-
-    // التصميم
-    const overlay = await loadImage(
+    // تحميل تصميم الترحيب
+    const template = await loadImage(
       path.join(__dirname, "welcome.png")
     );
 
-    // صورة العضو
+    // إنشاء الصورة بنفس حجم التصميم
+    const canvas = createCanvas(
+      template.width,
+      template.height
+    );
+
+    const ctx = canvas.getContext("2d");
+
+    // رسم التصميم
+    ctx.drawImage(
+      template,
+      0,
+      0,
+      canvas.width,
+      canvas.height
+    );
+
+    // تحميل صورة العضو
     const avatarURL = member.user.displayAvatarURL({
       extension: "png",
       size: 512
@@ -48,7 +62,7 @@ client.on("guildMemberAdd", async (member) => {
 
     const avatar = await loadImage(avatarURL);
 
-    // دائرة الصورة
+    // مكان صورة العضو
     const avatarX = 430;
     const avatarY = 430;
     const radius = 180;
@@ -80,14 +94,20 @@ client.on("guildMemberAdd", async (member) => {
     // اسم العضو
     const username = member.displayName;
 
-    ctx.font = "bold 85px sans-serif";
+    let fontSize = 85;
+
+    if (username.length > 15) fontSize = 70;
+    if (username.length > 20) fontSize = 55;
+    if (username.length > 25) fontSize = 45;
+
+    ctx.font = `bold ${fontSize}px sans-serif`;
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
 
+    ctx.fillStyle = "#ffffff";
+
     ctx.shadowColor = "#008cff";
     ctx.shadowBlur = 20;
-
-    ctx.fillStyle = "#ffffff";
 
     ctx.fillText(
       username,
@@ -97,27 +117,25 @@ client.on("guildMemberAdd", async (member) => {
 
     ctx.shadowBlur = 0;
 
-    // التصميم فوق الصورة والاسم
-    ctx.drawImage(
-      overlay,
-      0,
-      0,
-      canvas.width,
-      canvas.height
-    );
-
-    // تجهيز الصورة
+    // تحويل الصورة إلى PNG
     const buffer = await canvas.encode("png");
 
-    const attachment = new AttachmentBuilder(buffer, {
-      name: "welcome.png"
-    });
+    const attachment = new AttachmentBuilder(
+      buffer,
+      {
+        name: "welcome-result.png"
+      }
+    );
 
-    // إرسال الترحيب
+    // رسالة الترحيب
     await channel.send({
-      content: `نورت السيرفر <@${member.id}> 🤍`,
+      content: `⚡👑 وصل عضو جديد! حيّاك يا <@${member.id}>، نورت سيرفرنا وشرّفتنا! 🔥`,
       files: [attachment]
     });
+
+    console.log(
+      `✅ تم الترحيب بـ ${member.user.tag}`
+    );
 
   } catch (error) {
     console.error("❌ خطأ:", error);
