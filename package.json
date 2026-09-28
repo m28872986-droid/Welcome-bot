@@ -5,11 +5,8 @@
   "scripts": {
     "start": "node index.js"
   },
-  "engines": {
-    "node": ">=20"
-  },
   "dependencies": {
-    "discord.js": "^14.22.1",
-    "sharp": "^0.34.3"
+    "discord.js": "^14.21.0",
+    "@discordjs/voice": "^0.18.0"
   }
 }

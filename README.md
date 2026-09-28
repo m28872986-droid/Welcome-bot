@@ -1,26 +1,6 @@
-# RipBot — clean build
+# RipBot
+ضع DISCORD_TOKEN في Render Environment Variables ثم شغّل:
+npm install
+npm start
 
-هذه نسخة جديدة لاستبدال ملفات GitHub القديمة مع إبقاء خدمة Render الحالية `Welcome-bot`.
-
-## Render
-مطلوب فقط:
-- `DISCORD_TOKEN`
-- `OPENAI_API_KEY` اختياري حالياً
-
-لا ترسل المفاتيح في المحادثة.
-
-قبل التشغيل: ضع ID رتبة الميوت في `config.js`.
-
-## أهم الأوامر
-`كسرة` `فك_كسرة` `بنعالي` `ابلع` `فك_تايم`
-`ميوت` `فك_ميوت` `دفن` `فك_دفن`
-`تحذير` `تحذيرات` `شيل_تحذير` `مسح_تحذيرات`
-`قفل` `فتح` `مسح`
-`/all ban` `فك_باند_الكل`
-`تكت-نشر` وأوامر إدارة التكت
-`روم-تحكم` وأوامر الروم الخاص
-`اوامر` `العاب`
-
-الألعاب عامة لكل الأعضاء. لا توجد رهانات مالية أو أموال حقيقية.
-
-فعّل في Developer Portal: Server Members Intent و Message Content Intent، وأعط البوت View Audit Log والصلاحيات الإدارية التي يحتاجها.
+يحتاج البوت صلاحيات إدارة القنوات والرسائل والتذاكر، وتفعيل Server Members Intent و Message Content Intent.
