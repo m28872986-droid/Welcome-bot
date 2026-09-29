@@ -1,12 +1,7 @@
 {
-  "name": "ripbot",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "discord.js": "^14.21.0",
-    "@discordjs/voice": "^0.18.0"
-  }
+  "name":"ripbot",
+  "version":"1.0.0",
+  "main":"index.js",
+  "scripts":{"start":"node index.js"},
+  "dependencies":{"discord.js":"^14.21.0","@discordjs/voice":"^0.18.0"}
 }
