@@ -1,0 +1,11 @@
+Environment variable setup
+
+On your hosting provider, open Variables / Environment Variables and add:
+Name: DISCORD_TOKEN
+Value: your Discord bot token (keep it private)
+
+Optional:
+Name: PORT
+Value: 3000
+
+Do not post your token in chat or commit it to GitHub.
