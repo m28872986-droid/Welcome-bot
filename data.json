@@ -1,0 +1,423 @@
+{
+  "guilds": {
+    "1546851578638630922": {
+      "users": {
+        "1182653414929342467": {
+          "points": 33
+        },
+        "1047953627169435671": {
+          "points": 57
+        },
+        "433015871032655901": {
+          "points": 5
+        }
+      },
+      "settings": {
+        "reminderChannelId": "1563602072627318838",
+        "reminderIntervalMs": 600000,
+        "lastReminderAt": 1793893220155,
+        "optedOut": [
+          "1182653414929342467"
+        ],
+        "prefix": "!",
+        "adminRoleId": null,
+        "pointsRoleId": null,
+        "broadcastRoleId": null,
+        "authorizedUsers": [],
+        "logChannelId": "1563602072627318838",
+        "embedColor": "#733D73",
+        "reminderUsed": [
+          "dhikr_3",
+          "hadith_1",
+          "hadith_2",
+          "quran_3",
+          "d10",
+          "d07",
+          "q04",
+          "q08",
+          "d05",
+          "d08",
+          "d21",
+          "q07",
+          "d03",
+          "q20",
+          "q19",
+          "q10",
+          "q11",
+          "h01",
+          "q03",
+          "h08",
+          "q05",
+          "d02",
+          "d24",
+          "d04",
+          "h02"
+        ],
+        "dmLogChannelId": "1549888754867638302",
+        "transferLogChannelId": "1563158358603595817",
+        "pointsLogChannelId": "1563173363038298192",
+        "voiceLogChannelId": "1548158650823221318",
+        "voicePointAmount": 5,
+        "voicePointIntervalMs": 600000,
+        "voiceSessions": {
+          "1047953627169435671": {
+            "startedAt": 1793893579162,
+            "progressMs": 1327,
+            "channelId": "1546859095032729620"
+          },
+          "433015871032655901": {
+            "startedAt": 1793893579162,
+            "progressMs": 278,
+            "channelId": "1546859095032729620"
+          }
+        },
+        "voiceProgress": {
+          "1047953627169435671": 589989,
+          "1182653414929342467": 384560
+        },
+        "chatLogChannelId": "1549888754867638302",
+        "logEnabled": {},
+        "proposalChannelId": "1563158358603595817",
+        "proposalRoleId": "1547981597939212370",
+        "nextProposalNumber": 20,
+        "lastReminderId": "h02",
+        "ticketPanelChannelId": "1564789258546585741",
+        "ticketClaimChannelId": "1548158650823221318",
+        "ticketLogChannelId": "1564004194393006120",
+        "ticketCategoryId": null,
+        "ticketSupportRoleId": "1547981597939212370",
+        "ticketCounter": 3,
+        "ticketPanelMessageId": "1567919251564658741",
+        "ticketReviewRoleId": "1547558545531084841",
+        "ticketReasons": [
+          "شات ميلاد",
+          "شات تعزية",
+          "استفسار",
+          "تقديم الإدارة",
+          "شكوى على عضو",
+          "شكوى على إداري"
+        ],
+        "ticketPanelMessage": "يرجى اختيار نوع التذكرة من القائمة بالأسفل."
+      },
+      "proposals": {
+        "6": {
+          "id": "6",
+          "userId": "1047953627169435671",
+          "text": "ا",
+          "channelId": "1563158358603595817",
+          "channelName": "・roles",
+          "status": "review",
+          "messageId": "1567865892656914443",
+          "messageUrl": "https://discord.com/channels/1546851578638630922/1563158358603595817/1567865892656914443",
+          "statusName": "قيد الدراسة",
+          "reviewedBy": "1047953627169435671",
+          "reviewedAt": 1793878790292
+        },
+        "7": {
+          "id": "7",
+          "userId": "1182653414929342467",
+          "text": "اه",
+          "channelId": "1563158358603595817",
+          "channelName": "・roles",
+          "status": "review",
+          "messageId": "1567865947056906281",
+          "messageUrl": "https://discord.com/channels/1546851578638630922/1563158358603595817/1567865947056906281",
+          "statusName": "قيد الدراسة",
+          "reviewedBy": "1047953627169435671",
+          "reviewedAt": 1793878773893
+        },
+        "8": {
+          "id": "8",
+          "userId": "1182653414929342467",
+          "text": "ا",
+          "channelId": "1563158358603595817",
+          "channelName": "・roles",
+          "status": "accepted",
+          "messageId": "1567865984230891611",
+          "messageUrl": "https://discord.com/channels/1546851578638630922/1563158358603595817/1567865984230891611",
+          "statusName": "قبول",
+          "reviewedBy": "1047953627169435671",
+          "reviewedAt": 1793878782369
+        },
+        "9": {
+          "id": "9",
+          "userId": "1182653414929342467",
+          "text": "ا",
+          "channelId": "1563158358603595817",
+          "channelName": "・roles",
+          "status": "review",
+          "messageId": "1567866415258538026",
+          "messageUrl": "https://discord.com/channels/1546851578638630922/1563158358603595817/1567866415258538026",
+          "statusName": "قيد الدراسة",
+          "reviewedBy": "1182653414929342467",
+          "reviewedAt": 1793878885298
+        },
+        "10": {
+          "id": "10",
+          "userId": "1047953627169435671",
+          "text": "ا",
+          "channelId": "1563158358603595817",
+          "channelName": "・roles",
+          "status": "accepted",
+          "votes": {
+            "1047953627169435671": "up"
+          },
+          "messageId": "1567870424778285078",
+          "messageUrl": "https://discord.com/channels/1546851578638630922/1563158358603595817/1567870424778285078",
+          "statusName": "قبول",
+          "reviewedBy": "1047953627169435671",
+          "reviewedAt": 1793879845184
+        },
+        "11": {
+          "id": "11",
+          "userId": "1047953627169435671",
+          "text": "ا",
+          "channelId": "1563158358603595817",
+          "channelName": "・roles",
+          "status": "pending",
+          "votes": {},
+          "messageId": "1567870582471532635",
+          "messageUrl": "https://discord.com/channels/1546851578638630922/1563158358603595817/1567870582471532635"
+        },
+        "12": {
+          "id": "12",
+          "userId": "1182653414929342467",
+          "text": "اخ",
+          "channelId": "1563158358603595817",
+          "channelName": "・roles",
+          "status": "rejected",
+          "votes": {
+            "1182653414929342467": "up"
+          },
+          "messageId": "1567871053466837094",
+          "messageUrl": "https://discord.com/channels/1546851578638630922/1563158358603595817/1567871053466837094",
+          "statusName": "رفض",
+          "reviewedBy": "1182653414929342467",
+          "reviewedAt": 1793879997174
+        },
+        "13": {
+          "id": "13",
+          "userId": "1047953627169435671",
+          "text": "ا",
+          "channelId": "1563158358603595817",
+          "channelName": "・roles",
+          "status": "review",
+          "votes": {},
+          "messageId": "1567878927823802436",
+          "messageUrl": "https://discord.com/channels/1546851578638630922/1563158358603595817/1567878927823802436",
+          "statusName": "قيد الدراسة",
+          "reviewedBy": "1047953627169435671",
+          "reviewedAt": 1793881874366
+        },
+        "14": {
+          "id": "14",
+          "userId": "1047953627169435671",
+          "text": "ا",
+          "channelId": "1563158358603595817",
+          "channelName": "・roles",
+          "status": "pending",
+          "votes": {},
+          "messageId": "1567879029405782049",
+          "messageUrl": "https://discord.com/channels/1546851578638630922/1563158358603595817/1567879029405782049"
+        },
+        "15": {
+          "id": "15",
+          "userId": "1182653414929342467",
+          "text": "هل",
+          "channelId": "1563158358603595817",
+          "channelName": "・roles",
+          "status": "pending",
+          "votes": {},
+          "messageId": "1567879493383888970",
+          "messageUrl": "https://discord.com/channels/1546851578638630922/1563158358603595817/1567879493383888970"
+        },
+        "16": {
+          "id": "16",
+          "userId": "1047953627169435671",
+          "text": "ا",
+          "channelId": "1563158358603595817",
+          "channelName": "・roles",
+          "status": "pending",
+          "votes": {},
+          "messageId": "1567884216304144456",
+          "messageUrl": "https://discord.com/channels/1546851578638630922/1563158358603595817/1567884216304144456"
+        },
+        "17": {
+          "id": "17",
+          "userId": "1047953627169435671",
+          "text": "احبك بابلو",
+          "channelId": "1563158358603595817",
+          "channelName": "・roles",
+          "status": "accepted",
+          "votes": {},
+          "messageId": "1567884349418901556",
+          "messageUrl": "https://discord.com/channels/1546851578638630922/1563158358603595817/1567884349418901556",
+          "statusName": "قبول",
+          "reviewedBy": "1047953627169435671",
+          "reviewedAt": 1793883163479
+        },
+        "18": {
+          "id": "18",
+          "userId": "1182653414929342467",
+          "text": "D",
+          "channelId": "1563158358603595817",
+          "channelName": "・roles",
+          "status": "pending",
+          "votes": {
+            "1182653414929342467": "up"
+          },
+          "messageId": "1567884948285689978",
+          "messageUrl": "https://discord.com/channels/1546851578638630922/1563158358603595817/1567884948285689978"
+        },
+        "19": {
+          "id": "19",
+          "userId": "1182653414929342467",
+          "text": "ع",
+          "channelId": "1563158358603595817",
+          "channelName": "・roles",
+          "status": "pending",
+          "votes": {},
+          "messageId": "1567922103192260669",
+          "messageUrl": "https://discord.com/channels/1546851578638630922/1563158358603595817/1567922103192260669"
+        },
+        "1793876950951": {
+          "id": "1793876950951",
+          "userId": "1047953627169435671",
+          "text": "ا",
+          "up": [
+            "1047953627169435671"
+          ],
+          "down": [],
+          "status": "done",
+          "messageId": "1567858316166697062",
+          "reviewedBy": "1047953627169435671"
+        },
+        "1793876972224": {
+          "id": "1793876972224",
+          "userId": "1182653414929342467",
+          "text": "٦٧٧",
+          "up": [
+            "1182653414929342467"
+          ],
+          "down": [],
+          "status": "accepted",
+          "messageId": "1567858405853503509",
+          "reviewedBy": "1182653414929342467"
+        },
+        "1793876996675": {
+          "id": "1793876996675",
+          "userId": "1047953627169435671",
+          "text": "بس اصبر يبيله اعدل الأزرار",
+          "up": [
+            "1182653414929342467"
+          ],
+          "down": [],
+          "status": "rejected",
+          "messageId": "1567858507070308373",
+          "reviewedBy": "1182653414929342467"
+        },
+        "1793877015208": {
+          "id": "1793877015208",
+          "userId": "1182653414929342467",
+          "text": "اسمع",
+          "up": [],
+          "down": [],
+          "status": "pending",
+          "messageId": "1567858592353095752"
+        },
+        "1793877025752": {
+          "id": "1793877025752",
+          "userId": "1047953627169435671",
+          "text": "في اخطاء اصبر",
+          "up": [],
+          "down": [],
+          "status": "pending",
+          "messageId": "1567858630919979009"
+        }
+      },
+      "ticketRatings": {}
+    },
+    "1564995425331847341": {
+      "users": {
+        "1182653414929342467": {
+          "points": 15
+        },
+        "1567287279204966564": {
+          "points": 6
+        },
+        "1534963568703701164": {
+          "points": 0
+        },
+        "1236875728553906268": {
+          "points": 0
+        },
+        "1514147439278555226": {
+          "points": 3
+        },
+        "1047953627169435671": {
+          "points": null
+        }
+      },
+      "settings": {
+        "reminderChannelId": null,
+        "reminderIntervalMs": 43200000,
+        "lastReminderAt": 0,
+        "optedOut": [],
+        "prefix": "!",
+        "adminRoleId": null,
+        "pointsRoleId": null,
+        "broadcastRoleId": null,
+        "authorizedUsers": [],
+        "logChannelId": null,
+        "embedColor": "#269B78",
+        "reminderUsed": [],
+        "dmLogChannelId": null,
+        "transferLogChannelId": null,
+        "pointsLogChannelId": null,
+        "voiceLogChannelId": null,
+        "voicePointAmount": 1,
+        "voicePointIntervalMs": 600000,
+        "voiceSessions": {},
+        "voiceProgress": {
+          "1182653414929342467": 132679,
+          "1567287279204966564": 343046,
+          "1534963568703701164": 19656,
+          "1236875728553906268": 262690,
+          "1514147439278555226": 268476
+        },
+        "chatLogChannelId": null,
+        "logEnabled": {},
+        "proposalChannelId": null,
+        "proposalRoleId": "1547981597939212370",
+        "nextProposalNumber": 1,
+        "ticketPanelChannelId": null,
+        "ticketClaimChannelId": null,
+        "ticketLogChannelId": null,
+        "ticketCategoryId": null,
+        "ticketSupportRoleId": null,
+        "ticketCounter": 1,
+        "ticketPanelMessageId": null,
+        "ticketReviewRoleId": null,
+        "ticketReasons": [
+          "شات ميلاد",
+          "شات تعزية",
+          "استفسار",
+          "تقديم الإدارة",
+          "شكوى على عضو",
+          "شكوى على إداري"
+        ],
+        "ticketPanelMessage": "يرجى اختيار نوع التذكرة من القائمة بالأسفل."
+      },
+      "proposals": {},
+      "ticketRatings": {}
+    }
+  },
+  "legacyUsers": {
+    "1182653414929342467": {
+      "points": 0
+    },
+    "1047953627169435671": {
+      "points": 5000
+    }
+  }
+}
